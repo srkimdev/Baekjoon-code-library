@@ -1,0 +1,7 @@
+import math
+
+a, b, v = map(int, input().split())
+
+day = (v - a) / (a - b)
+
+print(math.ceil(day) + 1)
