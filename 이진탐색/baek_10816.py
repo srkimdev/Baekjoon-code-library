@@ -11,7 +11,6 @@ m = int(input())
 find = list(map(int, input().split()))
 
 arr.sort()
-#[-10, -10, 2, 3, 3, 6, 7, 10, 10, 10]
 
 for i in range(len(find)):
     print(count_by_range(arr, find[i], find[i]), end = ' ')
