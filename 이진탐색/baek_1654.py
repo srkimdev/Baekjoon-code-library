@@ -4,7 +4,7 @@ wire = []
 for i in range(k):
     wire.append(int(input()))
 
-start = 1
+start = 1 #start => 1
 end = max(wire)
 
 while start <= end:
