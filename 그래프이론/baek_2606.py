@@ -23,5 +23,4 @@ def bfs(v):
                 visited[i] = 1
 
 bfs(1)
-print(visited)
-print(sum(visited))
+print(sum(visited) - 1)
