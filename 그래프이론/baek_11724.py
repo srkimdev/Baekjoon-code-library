@@ -1,3 +1,7 @@
+import sys
+input = sys.stdin.readline
+sys.setrecursionlimit(2500)
+
 n, m = map(int, input().split())
 
 visited = [False] * (n + 1)
