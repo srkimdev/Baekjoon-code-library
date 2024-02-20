@@ -1,7 +1,5 @@
 from collections import deque
-# import sys
 
-# sys.getrecursionlimit(1000)
 n, m = map(int, input().split())
 
 ice = []
