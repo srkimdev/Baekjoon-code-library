@@ -28,10 +28,12 @@ def bfs(x, y):
 
             # 방문 안한것에 대해서
             if dp[nx][ny] == -1:
-                #벽이 있다면
+                #벽이 없다면
                 if board[nx][ny] == 0:
                     dp[nx][ny] = dp[x][y]
                     queue.appendleft((nx, ny)) #우선적으로 0을 탐색
+
+                #벽이 있다먄
                 else:
                     dp[nx][ny] = dp[x][y] + 1
                     queue.append((nx, ny))
